@@ -122,9 +122,15 @@ kbl(df,
 
 <aside>
 
-<br>
+<div class=myAside>
 
+<hr class=myHr>
+
+<p>
 Links to slides and recordings will be posted here throughout the course
+</p>
+
+</div>
 
 </aside>
 
@@ -155,13 +161,8 @@ If you choose to update packages, you may subsequently be asked if you want to i
 
 The package installation can occasionally fail, usually if there is a dependency that is not installed or has an outdated version. If you get an error message relating to a package, try installing that package first and then try again. If there are still issues, don't worry, just [drop an email to the course convenor](contact.html).
 
-<aside>
 
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html) </aside> 
 
 <br>
 
@@ -193,9 +194,13 @@ kbl(df,
 
 <aside>
 
-<br>
+<hr class=myHr>
 
+<div class=myAside>
+<p>
 Click the link to clone a personal copy of the GitHub repo for each assessment. You will complete your assessment as an RMarkdown document, pushing to GitHub when you are ready to submit.
+</p>
+</div>
 
 </aside>
 
@@ -244,11 +249,15 @@ kbl(df, escape = FALSE,
 
 <aside>
 
-<br>
+<hr class=myHr>
 
+<div class=myAside>
+<p>
 You should prioritise the core readings each week.  
 
 Note that some of the links below will require you to be logged in to your UNSW library account to access. 
+</p>
+</div>
 
 </aside>
 
@@ -288,13 +297,7 @@ kbl(df, escape = FALSE,
 
 ```
 
-<aside>
-
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
 
 ## Week 3. Multilevel modelling I (Introduction)
 ```{r}
@@ -333,13 +336,7 @@ kbl(df, escape = FALSE,
 
 ```
 
-<aside>
-
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
 
 ## Week 4. Multilevel Modelling II (Beyond the basics)
 ```{r}
@@ -369,13 +366,7 @@ kbl(df, escape = FALSE,
 
 ```
 
-<aside>
-
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
 
 ## Week 5. Multilevel modelling III (Repeated measures analysis)
 ```{r}
@@ -410,13 +401,7 @@ kbl(df, escape = FALSE,
 
 ```
 
-<aside>
-
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
 
 ## Week 7. Time Series Analysis
 ```{r}
@@ -450,13 +435,7 @@ kbl(df, escape = FALSE,
 
 ```
 
-<aside>
-
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
 
 ## Week 8. Interrupted Time Series Analysis
 ```{r}
@@ -494,13 +473,7 @@ kbl(df, escape = FALSE,
 
 ```
 
-<aside>
-
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
 
 ## Week 9. Missing Data and Multiple Imputation
 ```{r}
@@ -531,13 +504,8 @@ kbl(df, escape = FALSE,
 
 ```
 
-<aside>
+<aside> [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
 
-<br>
-
-<aside>  <br>  [Back to the top `r fontawesome::fa("arrow-up")`](index.html)   </aside> 
-
-</aside>
 
 
 ## Week 10. Presenting and summarising model results

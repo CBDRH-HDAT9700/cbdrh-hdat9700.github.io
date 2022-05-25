@@ -27,9 +27,13 @@ tags$div(class = "boxText", tags$p("Closing pathways to estimate causal effects"
 
 <aside>
 
-<br>
+<hr class=myHr>
 
+<div class=myAside>
+<p>
 To watch the video in full-screen, first click play then choose Full screen. 
+</p>
+</div>
 
 </aside>
 
@@ -61,8 +65,6 @@ tags$div(class = "boxText", tags$p("Propensity score distance")),
 ```
 
 <aside>
-
-<br>
 
 [Back to the top `r fontawesome::fa("arrow-up")`](recordings.html) 
 
@@ -97,8 +99,6 @@ tags$div(class = "boxText", tags$p("Multilevel models in R")),
 
 <aside>
 
-<br>
-
 [Back to the top `r fontawesome::fa("arrow-up")`](recordings.html) 
 
 </aside>
@@ -126,8 +126,6 @@ tags$div(class = "boxText", tags$p("Modelling binary outcomes")),
 ```
 
 <aside>
-
-<br>
 
 [Back to the top `r fontawesome::fa("arrow-up")`](recordings.html) 
 
@@ -163,8 +161,6 @@ tags$div(class = "boxText", tags$p("ARIMA models"))
 
 <aside>
 
-<br>
-
 [Back to the top `r fontawesome::fa("arrow-up")`](recordings.html) 
 
 </aside>
@@ -192,8 +188,6 @@ tags$div(class = "boxText", tags$p("Model choice"))
 ```
 
 <aside>
-
-<br>
 
 [Back to the top `r fontawesome::fa("arrow-up")`](recordings.html) 
 
@@ -223,8 +217,6 @@ tags$div(class = "boxText", tags$p("How many cycles for ICE?"))
 
 <aside>
 
-<br>
-
 [Back to the top `r fontawesome::fa("arrow-up")`](recordings.html) 
 
 </aside>
@@ -247,8 +239,6 @@ tags$div(class = "boxText", tags$p("Interpreting and Presenting Statistical Resu
 ```
 
 <aside>
-
-<br>
 
 [Back to the top `r fontawesome::fa("arrow-up")`](recordings.html) 
 
