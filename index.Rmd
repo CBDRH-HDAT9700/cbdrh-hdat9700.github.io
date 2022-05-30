@@ -96,7 +96,8 @@ slides <- c(
 )
 
 recordings <- c(
-  rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 10)
+  c("<a class='fa fa-youtube' href='https://unsw.sharepoint.com/:v:/r/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220530_170523-Meeting%20Recording.mp4?csf=1&web=1&e=UgoBe8' target='_blank'></a>",
+     rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 9))
 )
 
 df <-
@@ -139,6 +140,8 @@ Links to slides and recordings will be posted here throughout the course
 
 # Course outline 
 Access the course outline as a pdf here: <a class='fa fa-file-pdf' href='assets/HDAT9700_CourseOutline_T2_2022.pdf' target='_blank'></a>
+
+Access the course overview slides here: <a class='fa fa-file-powerpoint' href='assets/HDAT9700_CourseOverview_T2_2022.pptx' target='_blank'></a>
 
 <br>
 
