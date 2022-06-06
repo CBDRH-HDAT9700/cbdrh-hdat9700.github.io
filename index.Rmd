@@ -185,7 +185,8 @@ df <- data.frame(
   weight <- c("50%/3", "50%/3", "50%/3", "50%"),
   due <- c("9am, Mon 27 Jun", "9am, Mon 11 Jul", "9am, Mon 1 Aug", "9am, Mon 15 Aug"),
   link <- c(
-    rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 4)
+    "<a class='fa fa-github' href='https://classroom.github.com/a/9eZUVUdQ' target='_blank'></a>",
+    rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 3)
   )
   
 )
