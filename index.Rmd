@@ -60,7 +60,7 @@ tutorial <- c(
 "No tutorial",
 "11-1pm, Mon 11 Jul",
 "5-7pm, Mon 18 Jul",
-"5-7pm, Mon 25 Jul",
+"11-1pm, Mon 25 Jul",
 "5-7pm, Mon 1 Aug"
 )
 
