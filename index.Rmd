@@ -96,7 +96,9 @@ slides <- c(
   "<a class='fa fa-file-powerpoint' href='assets/mlm1-tutorial.pptx' target='_blank'></a>",
   "<a class='fa fa-file-powerpoint' href='assets/mlm2-tutorial.pptx' target='_blank'></a>",
   "<a class='fa fa-file-powerpoint' href='assets/mlm3-tutorial.pptx' target='_blank'></a>",
-  rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 5)
+  "",
+  "<a class='fa fa-file-powerpoint' href='assets/tsa-tutorial.pptx' target='_blank'></a>",
+  rep("<a class='fa fa-clock' href='https://giphy.com/embed/XIqCQx02E1U9W' target='_blank'></a>", 3)
 )
 
 recordings <- c(
@@ -105,7 +107,11 @@ recordings <- c(
    "<a class='fa fa-youtube' href='https://unsw.sharepoint.com/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220614_170948-Meeting%20Recording.mp4?web=1' target='_blank'></a> <br> <a class='fa fa-youtube' href='https://unsw.sharepoint.com/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220614_183242-Meeting%20Recording.mp4?web=1' target='_blank'></a>",
   "<a class='fa fa-youtube' href='https://unsw.sharepoint.com/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220620_171107-Meeting%20Recording.mp4?web=1' target='_blank'></a> <br> <a class='fa fa-youtube' href='https://unsw.sharepoint.com/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220620_183350-Meeting%20Recording.mp4?web=1' target='_blank'></a>",
   "<a class='fa fa-youtube' href='https://unsw.sharepoint.com/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220627_171028-Meeting%20Recording.mp4?web=1' target='_blank'></a>",
-     rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 5))
+  "",
+  "<a class='fa fa-youtube' href='https://unsw.sharepoint.com/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220711_110946-Meeting%20Recording.mp4?web=1' target='_blank'></a> <br> 
+   <a class='fa fa-youtube' href='https://unsw.sharepoint.com/sites/CLS-HDAT9700_T2_5226_10266/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220711_120722-Meeting%20Recording.mp4?web=1' target='_blank'></a>"
+  ,
+     rep("<a class='fa fa-clock' href='https://giphy.com/embed/XIqCQx02E1U9W' target='_blank'></a>", 3))
 )
 
 df <-
@@ -196,14 +202,15 @@ df <- data.frame(
     "<a class='fa fa-github' href='https://classroom.github.com/a/9eZUVUdQ' target='_blank'></a>",
     "<a class='fa fa-github' href='https://classroom.github.com/a/YrPKVHS8' target='_blank'></a>",
     rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 2)
-  )
+  ),
+  solution <- c(rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 4))
   
 )
 
 kbl(df, 
     escape = FALSE,
-    align = c('l', 'l', 'l', 'l', 'c'),
-    col.names = c("Assessment", "Topic", "Weight", "Due date", "Repo link")
+    align = c('l', 'l', 'l', 'l', 'c', 'c'),
+    col.names = c("Assessment", "Topic", "Weight", "Due date", "Repo link", "Solution")
     ) %>% 
   kable_styling(bootstrap_options = "hover")  
   
