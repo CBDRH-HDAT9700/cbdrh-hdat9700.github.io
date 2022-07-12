@@ -203,9 +203,10 @@ df <- data.frame(
     "<a class='fa fa-github' href='https://classroom.github.com/a/YrPKVHS8' target='_blank'></a>",
     rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 2)
   ),
-  solution <- c(rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 4))
+  solution <- c("<a class='fa fa-lightbulb' href='https://github.com/CBDRH-HDAT9700/assessment1a-MarkHanly-1' target='_blank'></a>",
+    rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 3))
   
-)
+) 
 
 kbl(df, 
     escape = FALSE,
@@ -223,7 +224,9 @@ kbl(df,
 
 <div class=myAside>
 <p>
-Click the link to clone a personal copy of the GitHub repo for each assessment. You will complete your assessment as an RMarkdown document, pushing to GitHub when you are ready to submit.
+Click the link to clone a personal copy of the GitHub repo for each assessment. 
+
+To access the solution you need to be a member of the GitHub Team. Reach out if you can't access. 
 </p>
 </div>
 
