@@ -206,7 +206,8 @@ df <- data.frame(
   link <- c(
     "<a class='fa fa-github' href='https://classroom.github.com/a/9eZUVUdQ' target='_blank'></a>",
     "<a class='fa fa-github' href='https://classroom.github.com/a/YrPKVHS8' target='_blank'></a>",
-    rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 2)
+    "<a class='fa fa-github' href='https://classroom.github.com/a/z768gYIu' target='_blank'></a>",
+    rep("<a class='fa fa-clock' href='https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif' target='_blank'></a>", 1)
   ),
   solution <- c("<a class='fa fa-lightbulb' href='https://github.com/CBDRH-HDAT9700/assessment1a-MarkHanly-1' target='_blank'></a>",
   "<a class='fa fa-lightbulb' href='https://github.com/CBDRH-HDAT9700/assessment1b-MarkHanly/blob/main/submission.md' target='_blank'></a>",
