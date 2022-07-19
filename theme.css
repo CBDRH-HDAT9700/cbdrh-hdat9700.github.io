@@ -139,4 +139,9 @@ d-appendix {
   font-weight: bold;
 }
 
+.distill-site-header .logo img {
+  max-height: 40px;
+  width: auto;
+  margin-bottom: -16px;
+}
 

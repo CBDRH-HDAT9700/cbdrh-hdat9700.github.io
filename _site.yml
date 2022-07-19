@@ -8,6 +8,12 @@ output_dir: "docs"
 theme: theme.css
 favicon: images/favicon.ico
 navbar:
+  logo:
+    image: images/unsw_logo_reverse.png
+    href: https://cbdrh.med.unsw.edu.au
+  left:
+    - icon: fa-home
+      href: index.html
   right:
     - text: "Home"
       href: index.html
